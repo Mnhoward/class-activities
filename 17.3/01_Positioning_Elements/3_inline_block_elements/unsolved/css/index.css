@@ -3,8 +3,30 @@ nav {
   background-color: lightgrey;
 }
 
+.wrapper {
+  font-size: large;
+  color: blueviolet;
+
+}
+
+.inline-block {
+  padding: 15px;
+display: inline-block;
+}
 /* target the class of inline-block below */
 
 /* target the class of .left below */
+.left {
+  height: 500px;
+  float: left;
+  background-color: lightblue;
+  width: 50%;
+}
 
 /* target the class of .right below */
+.right {
+  height: 500px;
+  float: right;
+  background-color: lightgreen;
+  width: 50%;
+}
