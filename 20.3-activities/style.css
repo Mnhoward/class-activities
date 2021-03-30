@@ -1,0 +1,71 @@
+#hero {
+    background-image: url(images/top\ hero\ with\ arrow.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 84vh;
+}
+
+#hero div.jumbotron {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: none !important;
+}
+
+.jumbotron {
+    display: flex;
+    background-color: transparent !important;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+#adventure h2 {
+    color: #FF9900;
+    font-size: 37px;
+    display: block;
+}
+    
+.adventure-item {
+        background-image: url("../20.3-activities/images/book\ yur\ flight.png");
+        height: 500px;
+        padding: 100px 20px;
+        background-color: black;
+        flex-direction: column;
+        color: white;
+
+    }
+
+    .adventure-item2 {
+        background-image: url("../20.3-activities/images/make\ a\ res.png");
+        height: 500px;
+        padding: 100px 20px;
+        background-color: black;
+        flex-direction: column;
+        color: white;
+
+    }
+    
+    .adventure-item3 {
+        background-image: url("../20.3-activities/images/plan\ your\ trip.png");
+        height: 500px;
+        padding: 100px 20px;
+        background-color: black;
+        flex-direction: column;
+        color: white;
+
+    }
+    .adventure-item  .btn-primary {
+        background-color: #FF9900;
+        border-color: #FF9900;
+    }
+
+    .adventure-item2  .btn-primary {
+        background-color: #FF9900;
+        border-color: #FF9900;
+    }
+
+    .adventure-item3  .btn-primary {
+        background-color: #FF9900;
+        border-color: #FF9900;
+    }
